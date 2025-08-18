@@ -1,0 +1,32 @@
+.mobile-content {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .mobile-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+  }
+
+  .mobile-message h2 {
+    font-size: 24px;
+    color: #ffffff;
+  }
+
+  .mobile-message p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  .qr-code {
+    width: 150px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,149 @@
+.contenido{
+  display: block;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width:600px) {
+  .contenido{
+    display: none;
+  }
+}
+
+
+.card{
+    width: 100%;
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.cardd_shots {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  border-radius:8px;
+  cursor: pointer;
+  transition: all 120ms;
+  overflow: hidden;
+}
+
+.cardd_shots:active {
+  transform: scale(.95);
+}
+
+.cardd_shots::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.ordenar-btn{
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  background: #181818;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  line-height: 65px;
+  transition: all 0.2s ease-in;
+  z-index: 10;
+}
+
+.cardd_shots:hover .ordenar-btn{
+  bottom: 0;
+}
+
+.cardd_shots:active .ordenar-btn {
+  height: 65px;
+}
+
+.image_shots {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  filter: drop-shadow(3px 3px 5px #18181815);
+  transform: translate(-50%, -50%);
+  transition: all .5s ease-in;
+  z-index: 2;
+}
+
+.image_shots img{
+  width: 204px;
+  height: 269px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.cardd_shots:hover .image_shots {
+   top: 20%;
+  left: 30%; 
+  width: 120px;
+  height: auto;
+  animation: none;
+  filter: blur(0.8px);
+  opacity: 0.9;
+  transform: rotate(0deg) translate(22%, -16%);
+}
+
+.text_shots {
+  position: absolute;
+  top: 15%;
+  left: -400%;
+  color: #ffffff;
+  transition: all .3s ease-in;
+  z-index: 2;
+  text-shadow: 1px 3px 4px rgb(0, 0, 0);
+}
+
+.text_shots span {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+
+.text_shots p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.cardd_shots:hover .text_shots {
+  top: 6%;
+  left: 5%;
+}
+
+
+.no-disponible{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 15;
+}

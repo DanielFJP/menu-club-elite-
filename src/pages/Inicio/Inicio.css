@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 15px;
+}
+
+@media screen and (min-width:600px) {
+  .container{
+    display: none;
+  }
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container h1{
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+
+.boton_producto {
+  font-family: inherit;
+  font-size: 18px;
+  width: 80vw;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+  
+  text-decoration: none;
+}
+
+.boton_producto{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+}
+
+.boton_producto span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.boton_producto svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.boton_producto:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.boton_producto:hover svg {
+  transform: translateY(-0.1em) rotate(15deg) scale(1.1);
+}
+
+.boton_producto:hover span {
+  font-size: 20px;
+}
+
+.boton_producto:active {
+  transform: scale(0.90);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+#boton_musica{
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  font-weight: 600;
+}
+
+.linea{
+  border: #fff 1px solid;
+  width: 85%;
+  margin: 0;
+}
