@@ -44,7 +44,7 @@ const nacionales = [
         img: aguila,
         titulo: "Aguila Original 330ml",
         descripcion: "Lager refrescante, sabor suave y tradicional, 4% v/v.",
-        precio: "$5.000",
+        precio: "$4.500",
         disponible: true,
     },
     {
@@ -61,17 +61,17 @@ const nacionales = [
         img: poker,
         titulo: "Poker 330ml",
         descripcion: "Lager suave, perfecta para compartir, 4% v/v.",
-        precio: "$5.000",
+        precio: "$4.500",
         disponible: true,
     },
-    {
+    /*{
         id: 4,
         img: costeña,
         titulo: "Costeña 330ml",
         descripcion: "Cerveza clásica colombiana, sabor balanceado, 4% v/v.",
         precio: "$4.000",
         disponible: true,
-    },
+    }*/,
     {
         id: 5,
         img: club_dorada,
@@ -94,24 +94,24 @@ const nacionales = [
         titulo: "Club Colombia Negra 330ml",
         descripcion: "Cerveza oscura con notas a café y chocolate, 5% v/v.",
         precio: "$6.000",
-        disponible: true,
+        disponible: false,
     },
-    {
+    /*{
         id: 8,
         img: club_trigo,
         titulo: "Club Colombia Trigo 330ml",
         descripcion: "Cerveza de trigo, fresca y afrutada, 5% v/v.",
         precio: "$7.000",
         disponible: true,
-    },
-    {
+    }*/,
+    /*{
         id: 9,
         img: club_grande,
         titulo: "Club Colombia Dorada 500ml",
         descripcion: "Versión grande de la dorada, 4.7% v/v.",
         precio: "$10.000",
         disponible: true,
-    },
+    },*/
 ];
 
 
@@ -239,7 +239,7 @@ const importadas = [
         img: corona,
         titulo: "Corona Extra 355ml",
         descripcion: "Lager mexicana, refrescante y ligera, 4.5% v/v.",
-        precio: "$10.000",
+        precio: "$9.000",
         disponible: true,
     },
     {
@@ -256,7 +256,7 @@ const importadas = [
         titulo: "Stella Artois 330ml",
         descripcion:
             "Lager belga premium, cuerpo ligero y sabor refinado, 5% v/v.",
-        precio: "$10.000",
+        precio: "$9.000",
         disponible: true,
     },
 ];
@@ -320,8 +320,7 @@ export default function () {
                           ))}
                       </Row>
                   </Tab>
-
-                  <Tab eventKey="artesanales" title="Artesanales">
+                  {/*<Tab eventKey="artesanales" title="Artesanales">
                       <Row xs={2} md={2} className="g-4 m-1">
                           {artesanales.map((producto) => (
                               <Col key={producto.id}>
@@ -348,20 +347,21 @@ export default function () {
                                               <p>{producto.descripcion}</p>
                                               <span>{producto.precio}</span>
                                           </div>
-                                          {/*<button
+                                          <button
                                               className="ordenar-btn"
                                               onClick={() =>
                                                   addToCart(producto)
                                               }
                                           >
                                               Ordenar
-                                          </button>*/}
+                                          </button>
                                       </div>
                                   </Card>
                               </Col>
                           ))}
                       </Row>
                   </Tab>
+                  */}
                   <Tab eventKey="importadas" title="Importadas">
                       <Row xs={2} md={2} className="g-4 m-1">
                           {importadas.map((producto) => (

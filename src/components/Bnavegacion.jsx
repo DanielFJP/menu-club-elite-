@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Bnavegacion.css"
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../img/logoonce.png";
+import logo from "../img/logo-elite.png";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import { useContext, useState } from "react";
@@ -133,13 +133,13 @@ function Bnavegacion() {
                         >
                             Cervezas
                         </Nav.Link>
-                        <Nav.Link
+                        {/*<Nav.Link
                             as={Link}
                             to="/bebidas_calientes"
                             onClick={handleNavLinkClick}
                         >
                             Bebidas Calientes
-                        </Nav.Link>
+                        </Nav.Link>*/}
                         <Nav.Link
                             as={Link}
                             to="/bebidas_sin_alcohol"
@@ -154,13 +154,13 @@ function Bnavegacion() {
                         >
                             Snacks
                         </Nav.Link>
-                        <Nav.Link
+                        {/*<Nav.Link
                             as={Link}
                             to="/shots"
                             onClick={handleNavLinkClick}
                         >
                             Shots
-                        </Nav.Link>
+                        </Nav.Link>*/}
                         <Nav.Link
                             as={Link}
                             to="/licores"

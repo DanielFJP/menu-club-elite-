@@ -36,7 +36,7 @@ function Inicio() {
                     <span>Cervezas</span>
                 </Link>
 
-                <Link to="/bebidas_calientes" className="boton_producto">
+                {/*<Link to="/bebidas_calientes" className="boton_producto">
                     <div class="svg-wrapper-1">
                         <div class="svg-wrapper">
                             <svg
@@ -57,7 +57,7 @@ function Inicio() {
                         </div>
                     </div>
                     <span>Bebidas Calientes</span>
-                </Link>
+                </Link>*/}
 
                 <Link to="/bebidas_sin_alcohol" className="boton_producto">
                     <div class="svg-wrapper-1">
@@ -97,7 +97,7 @@ function Inicio() {
                     <span>Snacks</span>
                 </Link>
 
-                <Link to="/shots" className="boton_producto">
+                {/*<Link to="/shots" className="boton_producto">
                     <div class="svg-wrapper-1">
                         <div class="svg-wrapper">
                             <svg
@@ -114,7 +114,7 @@ function Inicio() {
                         </div>
                     </div>
                     <span>Shots</span>
-                </Link>
+                </Link>*/}
 
                 <Link to="/licores" className="boton_producto">
                     <div class="svg-wrapper-1">
@@ -138,7 +138,7 @@ function Inicio() {
                 <hr className="linea" />
 
                 <Link
-                    to="https://tally.so/r/3yz1PB"
+                    to="https://tally.so/r/3Njg2j"
                     className="boton_producto"
                     id="boton_musica"
                 >

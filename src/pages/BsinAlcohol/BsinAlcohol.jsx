@@ -14,16 +14,32 @@ import hit_lulo from "../../img/bebidas-sin-alcohol/Hit-Lulo.webp";
 import hit_mango from "../../img/bebidas-sin-alcohol/Hit-Mango.webp";
 import hit_mora from "../../img/bebidas-sin-alcohol/Hit-Mora.webp";
 import hit_naranja from "../../img/bebidas-sin-alcohol/Hit-Naranja-Piña.webp";
+import gatorade_mandarina from "../../img/bebidas-sin-alcohol/gatorade-Mandarina.png"
+import gatorade_maracuya from "../../img/bebidas-sin-alcohol/gatorade-Maracuya.png";
 
 const SinAlcohol = [
     {
         id: 1,
         img: Zalva,
-        titulo: "Agua Zalva",
+        titulo: "Agua 600ml",
         precio: "$3.000",
         disponible: true,
     },
     {
+        id: 2,
+        img: gatorade_mandarina,
+        titulo: "Gatorade Mandarina 500ml",
+        precio: "5.000",
+        disponible: true,
+    },
+    {
+        id: 3,
+        img: gatorade_maracuya,
+        titulo: "Gatorade Maracuya 500ml",
+        precio: "5.000",
+        disponible: true,
+    },
+    /*{
         id: 2,
         img: colombiana,
         titulo: "Colombiana",
@@ -64,7 +80,7 @@ const SinAlcohol = [
         titulo: "Jugo Hit Naranja Piña",
         precio: "$3.500",
         disponible: true,
-    },
+    }*/
 ];
 
 export default function () {

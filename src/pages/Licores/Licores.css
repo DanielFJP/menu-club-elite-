@@ -1,6 +1,7 @@
 .contenido-licores{
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    margin-top: 45px;
   }
   
   @media screen and (min-width:600px) {
@@ -8,6 +9,19 @@
       display: none;
     }
   }
+
+  .nav-link{
+    color: rgba(255, 255, 255, 0.575) !important;
+}
+
+.nav-link.active{
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold !important;
+}
+
+.nav-tabs{
+    border-bottom: 2px solid white !important;
+}
   
   
   .card{
@@ -72,7 +86,7 @@
   .image_licores {
     position: absolute;
     top: 50%;
-    left: 26%;
+    left: 8%;
     width: 100px;
     height: auto;
     object-fit: cover;
@@ -82,7 +96,7 @@
   }
   
   .image_licores img{
-    width: 260px;
+    width: 230px;
     height: 269px;
     object-fit: contain;
     display: block;
@@ -91,20 +105,20 @@
   
   
   .cardd_licores:hover .image_licores {
-    top: 25%;
-    left: 45%; 
+    top: 20%;
+    left: -10%; 
     width: 120px;
     height: auto;
     animation: none;
     filter: blur(0.8px);
     opacity: 0.9;
-    transform: rotate(0deg) translate(-94%, 5%);
+    transform: rotate(0deg) translate(30%, -19%);
   }
   
   .text_licores {
     position: absolute;
-    top: 30%;
-    left: -180%;
+    top: 18%;
+    left: -315%;
     color: #ffffff;
     transition: all .3s ease-in;
     z-index: 2;
@@ -112,19 +126,20 @@
   }
   
   .text_licores span {
-    font-size: 30px;
+    font-size: 21px;
     font-weight: bold;
-    margin-bottom: 5px;
+    line-height: 1.2;
   }
   
   .text_licores p {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
   }
   
   .cardd_licores:hover .text_licores {
     top: 15%;
-    left: 5%;
+    left: 3%;
   }
   
   

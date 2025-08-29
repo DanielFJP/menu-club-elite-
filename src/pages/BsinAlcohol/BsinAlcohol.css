@@ -93,13 +93,13 @@
   animation: none;
   filter: blur(0.8px);
   opacity: 0.9;
-  transform: rotate(15deg) translate(-35%, -25%);
+  transform: rotate(0deg) translate(-15%, -18%);
 }
 
 .text-BsinAlcohol {
   position: absolute;
   top: 30% !important;
-  left: -180%;
+  left: -215%;
   color: #ffffff;
   transition: all .3s ease-in;
   z-index: 2;
