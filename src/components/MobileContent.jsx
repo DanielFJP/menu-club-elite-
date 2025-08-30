@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from "../img/logoonce.png";
+import logo from "../img/logo-elite.png";
 import "./MobileContent.css";
 
 export default function MobileContent() {
   return (
       <div className="mobile-content">
           <div className='logo'>
-              <img src={ logo } alt="Logo Once23" />
+              <img src={ logo } alt="Logo Club Elite" />
           </div>
           <div className="mobile-message">
               <h2>Este contenido es solo para celulares</h2>

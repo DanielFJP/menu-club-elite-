@@ -29,4 +29,9 @@
     width: 150px;
     margin-top: 20px;
   }
+
+  .logo{
+    width: 200px;
+    height: auto;
+  }
 }
