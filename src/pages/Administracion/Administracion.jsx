@@ -1,6 +1,6 @@
 import React from 'react';
 import './Administracion.css';
-import Logo from '../../img/logoonce.png'
+
 
 
 export default function Administracion() {

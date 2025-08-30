@@ -108,6 +108,62 @@ const ron = [
     },
 ];
 
+const vodka = [
+    {
+        id: 1,
+        img: smirnoff_lulo375 ,
+        titulo: "Smirnoff Lulo 375ml",
+        descripcion: "",
+        precio: "48.000",
+        disponible: true,
+    },
+    {
+        id:2 ,
+        img:smirnoff_lulo750 ,
+        titulo: "Smirnoff Lulo 750ml",
+        descripcion: "",
+        precio: "85.000",
+        disponible: true,
+    },
+    {
+        id: 3,
+        img: smirnoff_tamarindo,
+        titulo: "Smirnoff Tamarindo 750ml",
+        descripcion: "",
+        precio: "90.000",
+        disponible: true,
+    },
+];
+
+const tequila = [
+    {
+        id: 1,
+        img: jose_cuervo_especial750,
+        titulo: "Jose Cuervo Especial Reposado 750ml",
+        descripcion: "",
+        precio: "150.000",
+        disponible: true,
+    },
+];
+
+const whisky = [
+    {
+        id: 1,
+        img: buchanans_deluxe375,
+        titulo: "Buchanan's Deluxe 375ml",
+        descripcion: "",
+        precio: "140.000",
+        disponible: true,
+    },
+    {
+        id: 2,
+        img: buchanans_deluxe750,
+        titulo: "Buchanan's Deluxe 375ml",
+        descripcion: "",
+        precio: "220.000",
+        disponible: true,
+    },
+];
 export default function () {
     const { addToCart } = useContext(CartContext);
 
@@ -121,7 +177,7 @@ export default function () {
                     defaultActiveKey="aguardiente"
                     transition={true}
                     id="noanim-tab-example"
-                    className="mb-1 d-flex justify-content-center bg-dark tabs"
+                    className="mb-1 d-flex justify-content-center bg-dark tabs_licores"
                 >
                     <Tab eventKey="aguardiente" title="Guaro">
                         <Row xs={2} md={2} className="g-4 m-1">
@@ -174,7 +230,127 @@ export default function () {
                                                     No Disponible
                                                 </div>
                                             )}
+                                            <div className="image_licores_ron">
+                                                <img
+                                                    src={producto.img}
+                                                    alt={producto.titulo}
+                                                    style={{
+                                                        filter: producto.disponible
+                                                            ? "none"
+                                                            : "grayscale(100%)",
+                                                    }}
+                                                />
+                                            </div>
+                                            <div className="text_licores">
+                                                <span>{producto.titulo}</span>
+                                                <p>{producto.descripcion}</p>
+                                                <span>{producto.precio}</span>
+                                            </div>
+                                            {/*<button
+                                        className="ordenar-btn"
+                                        onClick={() => addToCart(producto)}
+                                    >
+                                        Ordenar
+                                    </button>*/}
+                                        </div>
+                                    </Card>
+                                </Col>
+                            ))}
+                        </Row>
+                    </Tab>
+
+                    <Tab eventKey="vodka" title="Vodka">
+                        <Row xs={2} md={2} className="g-4 m-1">
+                            {vodka.map((producto) => (
+                                <Col key={producto.id}>
+                                    <Card>
+                                        <div className="cardd_licores">
+                                            {!producto.disponible && (
+                                                <div className="no-disponible">
+                                                    No Disponible
+                                                </div>
+                                            )}
                                             <div className="image_licores">
+                                                <img
+                                                    src={producto.img}
+                                                    alt={producto.titulo}
+                                                    style={{
+                                                        filter: producto.disponible
+                                                            ? "none"
+                                                            : "grayscale(100%)",
+                                                    }}
+                                                />
+                                            </div>
+                                            <div className="text_licores">
+                                                <span>{producto.titulo}</span>
+                                                <p>{producto.descripcion}</p>
+                                                <span>{producto.precio}</span>
+                                            </div>
+                                            {/*<button
+                                        className="ordenar-btn"
+                                        onClick={() => addToCart(producto)}
+                                    >
+                                        Ordenar
+                                    </button>*/}
+                                        </div>
+                                    </Card>
+                                </Col>
+                            ))}
+                        </Row>
+                    </Tab>
+
+                    <Tab eventKey="tequila" title="Tequila">
+                        <Row xs={1} md={2} className="g-4 m-1">
+                            {tequila.map((producto) => (
+                                <Col key={producto.id}>
+                                    <Card>
+                                        <div className="cardd_licores">
+                                            {!producto.disponible && (
+                                                <div className="no-disponible">
+                                                    No Disponible
+                                                </div>
+                                            )}
+                                            <div className="image_licores_tequila">
+                                                <img
+                                                    src={producto.img}
+                                                    alt={producto.titulo}
+                                                    style={{
+                                                        filter: producto.disponible
+                                                            ? "none"
+                                                            : "grayscale(100%)",
+                                                    }}
+                                                />
+                                            </div>
+                                            <div className="text_licores">
+                                                <span>{producto.titulo}</span>
+                                                <p>{producto.descripcion}</p>
+                                                <span>{producto.precio}</span>
+                                            </div>
+                                            {/*<button
+                                        className="ordenar-btn"
+                                        onClick={() => addToCart(producto)}
+                                    >
+                                        Ordenar
+                                    </button>*/}
+                                        </div>
+                                    </Card>
+                                </Col>
+                            ))}
+                        </Row>
+                    </Tab>
+
+                    <Tab eventKey="whisky" title="Whisky">
+                        <Row xs={1} md={2} className="g-4 m-1">
+                            {whisky.map((producto) => (
+                                <Col key={producto.id}>
+                                    <Card>
+                                        <div className="cardd_licores">
+                                            {!producto.disponible && (
+                                                <div className="no-disponible">
+                                                    No Disponible
+                                                </div>
+                                            )}
+                                            <div className="image_licores_whisky">
                                                 <img
                                                     src={producto.img}
                                                     alt={producto.titulo}

@@ -9,20 +9,21 @@ import { CartContext } from "../../components/CartContext";
 
 import todorico from "../../img/snacks/todo_rico.webp";
 import detodito from "../../img/snacks/de_todito.webp";
+import todoriconatural from "../../img/snacks/todo_rico_natural.png"
 
 const snacks = [
     {
         id: 1,
         img: todorico,
         titulo: "Todo Rico BBQ 45g",
-        precio: "$4.000",
+        precio: "$4.500",
         disponible: true,
     },
     {
         id: 2,
-        img: detodito,
-        titulo: "De Todito BBQ 45g",
-        precio: "$4.000",
+        img: todoriconatural,
+        titulo: "Todo Rico Original 45g",
+        precio: "$4.500",
         disponible: true,
     },
 ];

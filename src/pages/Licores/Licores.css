@@ -1,7 +1,7 @@
 .contenido-licores{
     display: block;
     margin-bottom: 20px;
-    margin-top: 45px;
+    margin-top: 90px;
   }
   
   @media screen and (min-width:600px) {
@@ -21,6 +21,14 @@
 
 .nav-tabs{
     border-bottom: 2px solid white !important;
+}
+
+.tabs_licores{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 63px;
+  padding: 0;
 }
   
   
@@ -105,7 +113,7 @@
   
   
   .cardd_licores:hover .image_licores {
-    top: 20%;
+    top: 19%;
     left: -10%; 
     width: 120px;
     height: auto;
@@ -114,6 +122,104 @@
     opacity: 0.9;
     transform: rotate(0deg) translate(30%, -19%);
   }
+
+
+
+  .image_licores_ron{
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    filter: drop-shadow(3px 3px 5px #18181815);
+    transform: translate(-50%, -50%);
+    transition: all .5s ease-in;
+  }
+
+  .image_licores_ron img{
+    width: 240px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .cardd_licores:hover .image_licores_ron {
+    top: 25%;
+    left: -10%; 
+    width: 120px;
+    height: auto;
+    animation: none;
+    filter: blur(0.8px);
+    opacity: 0.9;
+    transform: rotate(0deg) translate(30%, -19%);
+  }
+
+
+  .image_licores_tequila{
+    position: absolute;
+    top: 50%;
+    left: 29%;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    filter: drop-shadow(3px 3px 5px #18181815);
+    transform: translate(-50%, -50%);
+    transition: all .5s ease-in;
+  }
+
+  .image_licores_tequila img{
+    width: 240px;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .cardd_licores:hover .image_licores_tequila {
+    top: 35%;
+    left: 4%; 
+    width: 120px;
+    height: auto;
+    animation: none;
+    filter: blur(0.8px);
+    opacity: 0.9;
+    transform: rotate(0deg) translate(30%, -19%);
+  }
+
+
+  .image_licores_whisky{
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    filter: drop-shadow(3px 3px 5px #18181815);
+    transform: translate(-50%, -50%);
+    transition: all .5s ease-in;
+  }
+
+  .image_licores_whisky img{
+    width: 290px;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .cardd_licores:hover .image_licores_whisky {
+    top: 40%;
+    left: -3%; 
+    width: 120px;
+    height: auto;
+    animation: none;
+    filter: blur(0.8px);
+    opacity: 0.9;
+    transform: rotate(0deg) translate(30%, -19%);
+  }
+
   
   .text_licores {
     position: absolute;
@@ -159,3 +265,7 @@
     font-weight: bold;
     z-index: 15;
   }
+
+
+
+

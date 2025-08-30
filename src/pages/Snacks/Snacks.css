@@ -83,7 +83,7 @@
 
 .image_snacks img{
   width: 204px;
-  height: 269px;
+  height: 240px;
   object-fit: contain;
   display: block;
   margin: 0 auto;
@@ -112,7 +112,7 @@
 }
 
 .text_snacks span {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 5px;
 }
