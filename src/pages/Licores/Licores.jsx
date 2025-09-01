@@ -158,7 +158,7 @@ const whisky = [
     {
         id: 2,
         img: buchanans_deluxe750,
-        titulo: "Buchanan's Deluxe 375ml",
+        titulo: "Buchanan's Deluxe 750ml",
         descripcion: "",
         precio: "220.000",
         disponible: true,
