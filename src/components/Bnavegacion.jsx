@@ -170,7 +170,7 @@ function Bnavegacion() {
                         </Nav.Link>
                         <Nav.Link
                             as={Link}
-                            to="https://tally.so/r/3yz1PB"
+                            to="https://tally.so/r/3Njg2j"
                             onClick={handleNavLinkClick}
                         >
                             Pide tu Canción
@@ -179,8 +179,6 @@ function Bnavegacion() {
                 </Navbar.Collapse>
             </Navbar>
 
-            
-            
             <Modal
                 show={showCart}
                 onHide={toggleCart}
