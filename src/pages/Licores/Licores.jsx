@@ -29,6 +29,7 @@ import smirnoff_tamarindo from "../../img/licores/vodka/Smirnoff_Tamarindo.png";
 
 import buchanans_deluxe375 from "../../img/licores/whisky/buchanans_deluxe375.png";
 import buchanans_deluxe750 from "../../img/licores/whisky/buchanans_deluxe750.png";
+import old_parr_750 from "../../img/licores/whisky/old_parr_750.png"
 
 const aguardiente = [
     {
@@ -161,6 +162,14 @@ const whisky = [
         titulo: "Buchanan's Deluxe 750ml",
         descripcion: "",
         precio: "220.000",
+        disponible: false,
+    },
+    {
+        id: 3,
+        img: old_parr_750,
+        titulo: "Old Parr 750ml",
+        descripcion: "",
+        precio: "210.000",
         disponible: true,
     },
 ];
