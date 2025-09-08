@@ -37,7 +37,7 @@ const aguardiente = [
         img: a_rojo_375,
         titulo: "Antioqueño Rojo 375ml",
         descripcion: "",
-        precio: "50.000",
+        precio: "48.000",
         disponible: true,
     },
     {
@@ -53,7 +53,7 @@ const aguardiente = [
         img: a_verde_375,
         titulo: "Antioqueño Verde 375ml",
         descripcion: "",
-        precio: "50.000",
+        precio: "48.000",
         disponible: true,
     },
     {
@@ -88,7 +88,7 @@ const ron = [
         img: caldas_375,
         titulo: "Viejo de Caldas Tradicional 375ml",
         descripcion: "",
-        precio: "55.000",
+        precio: "50.000",
         disponible: true,
     },
     {
@@ -115,7 +115,7 @@ const vodka = [
         img: smirnoff_lulo375 ,
         titulo: "Smirnoff Lulo 375ml",
         descripcion: "",
-        precio: "48.000",
+        precio: "45.000",
         disponible: true,
     },
     {
@@ -123,7 +123,7 @@ const vodka = [
         img:smirnoff_lulo750 ,
         titulo: "Smirnoff Lulo 750ml",
         descripcion: "",
-        precio: "85.000",
+        precio: "80.000",
         disponible: true,
     },
     {
@@ -131,7 +131,7 @@ const vodka = [
         img: smirnoff_tamarindo,
         titulo: "Smirnoff Tamarindo 750ml",
         descripcion: "",
-        precio: "90.000",
+        precio: "85.000",
         disponible: true,
     },
 ];
@@ -153,7 +153,7 @@ const whisky = [
         img: buchanans_deluxe375,
         titulo: "Buchanan's Deluxe 375ml",
         descripcion: "",
-        precio: "140.000",
+        precio: "139.000",
         disponible: true,
     },
     {
@@ -161,7 +161,7 @@ const whisky = [
         img: buchanans_deluxe750,
         titulo: "Buchanan's Deluxe 750ml",
         descripcion: "",
-        precio: "220.000",
+        precio: "239.000",
         disponible: false,
     },
     {
@@ -169,7 +169,7 @@ const whisky = [
         img: old_parr_750,
         titulo: "Old Parr 750ml",
         descripcion: "",
-        precio: "210.000",
+        precio: "229.000",
         disponible: true,
     },
 ];

@@ -43,7 +43,7 @@ const nacionales = [
         id: 1,
         img: aguila,
         titulo: "Aguila Original 330ml",
-        descripcion: "Lager refrescante, sabor suave y tradicional, 4% v/v.",
+        descripcion: "Lunes a Miercoles  $4.000",
         precio: "$4.500",
         disponible: true,
     },
@@ -51,8 +51,7 @@ const nacionales = [
         id: 2,
         img: aguila_light,
         titulo: "Aguila Light 330ml",
-        descripcion:
-            "Versión ligera, menos calorías, misma frescura, 3.4% v/v.",
+        descripcion: "Lunes a Miercoles  $4.500",
         precio: "$5.000",
         disponible: true,
     },
@@ -60,10 +59,11 @@ const nacionales = [
         id: 3,
         img: poker,
         titulo: "Poker 330ml",
-        descripcion: "Lager suave, perfecta para compartir, 4% v/v.",
+        descripcion: "Lunes a Miercoles  $4.000",
         precio: "$4.500",
         disponible: true,
     },
+    ,
     /*{
         id: 4,
         img: costeña,
@@ -71,12 +71,11 @@ const nacionales = [
         descripcion: "Cerveza clásica colombiana, sabor balanceado, 4% v/v.",
         precio: "$4.000",
         disponible: true,
-    }*/,
-    {
+    }*/ {
         id: 5,
         img: club_dorada,
         titulo: "Club Colombia Dorada 330ml",
-        descripcion: "Lager premium, sabor balanceado, 4.7% v/v.",
+        descripcion: "Lunes a Miercoles  $5.500",
         precio: "$6.000",
         disponible: true,
     },
@@ -84,7 +83,7 @@ const nacionales = [
         id: 6,
         img: club_roja,
         titulo: "Club Colombia Roja 330ml",
-        descripcion: "Cuerpo medio y notas acarameladas, 5% v/v.",
+        descripcion: "Lunes a Miercoles  $5.500",
         precio: "$6.000",
         disponible: true,
     },
@@ -92,7 +91,7 @@ const nacionales = [
         id: 7,
         img: club_negra,
         titulo: "Club Colombia Negra 330ml",
-        descripcion: "Cerveza oscura con notas a café y chocolate, 5% v/v.",
+        descripcion: "Lunes a Miercoles  $5.500",
         precio: "$6.000",
         disponible: false,
     },
@@ -103,7 +102,7 @@ const nacionales = [
         descripcion: "Cerveza de trigo, fresca y afrutada, 5% v/v.",
         precio: "$7.000",
         disponible: true,
-    }*/,
+    }*/
     /*{
         id: 9,
         img: club_grande,
@@ -112,6 +111,7 @@ const nacionales = [
         precio: "$10.000",
         disponible: true,
     },*/
+    ,
 ];
 
 
@@ -238,7 +238,7 @@ const importadas = [
         id: 1,
         img: corona,
         titulo: "Corona Extra 355ml",
-        descripcion: "Lager mexicana, refrescante y ligera, 4.5% v/v.",
+        descripcion: "Lunes a Miercoles  $8.000",
         precio: "$9.000",
         disponible: true,
     },
@@ -246,7 +246,7 @@ const importadas = [
         id: 2,
         img: coronita,
         titulo: "Coronita 210ml",
-        descripcion: "Versión pequeña de Corona, 4.5% v/v.",
+        descripcion: "Lunes a Miercoles  $5.500",
         precio: "$6.000",
         disponible: true,
     },
@@ -254,8 +254,7 @@ const importadas = [
         id: 3,
         img: stella,
         titulo: "Stella Artois 330ml",
-        descripcion:
-            "Lager belga premium, cuerpo ligero y sabor refinado, 5% v/v.",
+        descripcion: "Lunes a Miercoles  $8.000",
         precio: "$9.000",
         disponible: true,
     },
@@ -304,7 +303,9 @@ export default function () {
                                           <div className="text-cervezas">
                                               <span>{producto.titulo}</span>
                                               <p>{producto.descripcion}</p>
-                                              <span>{producto.precio}</span>
+                                              <span>
+                                                  {producto.precio}
+                                              </span>
                                           </div>
                                           {/*<button
                                               className="ordenar-btn"
