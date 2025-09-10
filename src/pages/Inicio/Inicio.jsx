@@ -3,6 +3,9 @@ import "./Inicio.css";
 import { Link } from 'react-router-dom';
 import MobileContent from '../../components/MobileContent';
 import Navbar from '../../components/Bnavegacion';
+import Carousel from "react-bootstrap/Carousel";
+import carr1 from "../../img/carrusel/descuento_en_cervezas.png";
+import carr2 from "../../img/carrusel/domingo_plancha.png";
 
 
 function Inicio() {
@@ -10,6 +13,31 @@ function Inicio() {
         <div>
             <MobileContent />
             <Navbar />
+
+            <div
+                style={{ height: "10vh", overflow: "hidden" }}
+                className="carrusel"
+            >
+                <Carousel indicators={false} controls={false} interval={3000}>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={carr1}
+                            alt="Primera"
+                            style={{ height: "10vh", objectFit: "cover" }}
+                        />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={carr2}
+                            alt="Segunda"
+                            style={{ height: "10vh", objectFit: "cover" }}
+                        />
+                    </Carousel.Item>
+                </Carousel>
+            </div>
 
             <div className="container">
                 <h1>
