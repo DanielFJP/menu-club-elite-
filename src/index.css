@@ -15,7 +15,7 @@ body::before{
     height: 100vh;
     z-index: -1;
    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                url("./img/fondo_elite.jpg") center/cover no-repeat;
+                url("./img/fondo_elite_amor_amistad.png") center/cover no-repeat;
                 
 }
 

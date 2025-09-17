@@ -6,6 +6,7 @@ import Navbar from '../../components/Bnavegacion';
 import Carousel from "react-bootstrap/Carousel";
 import carr1 from "../../img/carrusel/descuento_en_cervezas.png";
 import carr2 from "../../img/carrusel/domingo_plancha.png";
+import amor_amistad from "../../img/carrusel/amor_amistad.png";
 
 
 function Inicio() {
@@ -22,7 +23,7 @@ function Inicio() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src={carr1}
+                            src={amor_amistad}
                             alt="Primera"
                             style={{ height: "10vh", objectFit: "cover" }}
                         />
