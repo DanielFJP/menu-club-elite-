@@ -6,6 +6,7 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { CartContext } from "../../components/CartContext";
+import Footer from "../../components/footer";
 
 import Zalva from "../../img/bebidas-sin-alcohol/agua-zalva.webp";
 import colombiana from "../../img/bebidas-sin-alcohol/colombiana.webp";
@@ -130,6 +131,8 @@ const { addToCart } = useContext(CartContext);
                     ))}
                 </Row>
             </div>
+
+             <Footer/>
         </div>
     );
 }

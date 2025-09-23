@@ -6,6 +6,7 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { CartContext } from "../../components/CartContext";
+import Footer from "../../components/footer";
 
 import todorico from "../../img/snacks/todo_rico.webp";
 import detodito from "../../img/snacks/de_todito.webp";
@@ -75,6 +76,8 @@ const { addToCart } = useContext(CartContext);
                     ))}
                 </Row>
             </div>
+
+             <Footer/>
         </div>
     );
 }

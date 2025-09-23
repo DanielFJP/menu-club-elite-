@@ -8,6 +8,7 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { CartContext } from '../../components/CartContext';
+import Footer from "../../components/footer";
 
 import aguila from '../../img/cervezas/cervezas-nacionales/aguila.png';
 import aguila_light from "../../img/cervezas/cervezas-nacionales/aguila-light.png";
@@ -406,6 +407,8 @@ export default function () {
                   </Tab>
               </Tabs>
           </div>
+
+           <Footer/>
       </div>
   );
 }

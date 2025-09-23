@@ -2,6 +2,7 @@ import React from 'react'
 import "./Inicio.css";
 import { Link } from 'react-router-dom';
 import MobileContent from '../../components/MobileContent';
+import Footer from '../../components/footer';
 import Navbar from '../../components/Bnavegacion';
 import Carousel from "react-bootstrap/Carousel";
 import carr1 from "../../img/carrusel/descuento_en_cervezas.png";
@@ -193,6 +194,7 @@ function Inicio() {
                     <span>Pide tu canción</span>
                 </Link>
             </div>
+            <Footer/>
         </div>
     );
 }

@@ -8,6 +8,7 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { CartContext } from "../../components/CartContext";
+import Footer from "../../components/footer";
 
 import cuates from "../../img/licores/cuates.png";
 import a_rojo_375 from "../../img/licores/aguardiente/antioqueño_rojo_375.png";
@@ -389,6 +390,8 @@ export default function () {
                     </Tab>
                 </Tabs>
             </div>
+
+             <Footer/>
         </div>
     );
 }
