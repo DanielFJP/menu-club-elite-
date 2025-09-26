@@ -31,14 +31,14 @@ const SinAlcohol = [
         img: gatorade_mandarina,
         titulo: "Gatorade Mandarina 500ml",
         precio: "5.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 3,
         img: gatorade_maracuya,
         titulo: "Gatorade Maracuya 500ml",
         precio: "5.000",
-        disponible: true,
+        disponible: false,
     },
     /*{
         id: 2,
