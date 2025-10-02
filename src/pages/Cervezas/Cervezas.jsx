@@ -37,7 +37,7 @@ import blanca from "../../img/cervezas/cervezas-artesanales/3c_blanca.webp";
 import corona from "../../img/cervezas/cervezas-importadas/corona.png";
 import coronita from "../../img/cervezas/cervezas-importadas/coronita.png";
 import stella from "../../img/cervezas/cervezas-importadas/stella.png";
-
+import buweiser from "../../img/cervezas/cervezas-importadas/buweiser330.png"
 
 const nacionales = [
     {
@@ -241,7 +241,7 @@ const importadas = [
         titulo: "Corona Extra 355ml",
         descripcion: "De Lunes a Miercoles  $8.000",
         precio: "$9.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 2,
@@ -253,6 +253,14 @@ const importadas = [
     },
     {
         id: 3,
+        img: buweiser,
+        titulo: "Budweiser 330ml",
+        descripcion: "De Lunes a Miercoles  $4.500",
+        precio: "$5.000",
+        disponible: true,
+    },
+    {
+        id: 4,
         img: stella,
         titulo: "Stella Artois 330ml",
         descripcion: "De Lunes a Miercoles  $8.000",

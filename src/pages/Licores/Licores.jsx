@@ -27,6 +27,7 @@ import jose_cuervo_especial750 from "../../img/licores/tequila/jose_cuervo_espec
 import smirnoff_lulo375 from "../../img/licores/vodka/smirnoff_lulo_375.png";
 import smirnoff_lulo750 from "../../img/licores/vodka/smirnoff_lulo_750.png";
 import smirnoff_tamarindo from "../../img/licores/vodka/Smirnoff_Tamarindo.png";
+import smirnoff_tamarindo375 from "../../img/licores/vodka/Smirnoff_tamarindo375.png";
 
 import buchanans_deluxe375 from "../../img/licores/whisky/buchanans_deluxe375.png";
 import buchanans_deluxe750 from "../../img/licores/whisky/buchanans_deluxe750.png";
@@ -113,15 +114,15 @@ const ron = [
 const vodka = [
     {
         id: 1,
-        img: smirnoff_lulo375 ,
+        img: smirnoff_lulo375,
         titulo: "Smirnoff Lulo 375ml",
         descripcion: "",
         precio: "45.000",
         disponible: true,
     },
     {
-        id:2 ,
-        img:smirnoff_lulo750 ,
+        id: 2,
+        img: smirnoff_lulo750,
         titulo: "Smirnoff Lulo 750ml",
         descripcion: "",
         precio: "80.000",
@@ -129,6 +130,14 @@ const vodka = [
     },
     {
         id: 3,
+        img: smirnoff_tamarindo375,
+        titulo: "Smirnoff Tamarindo 375ml",
+        descripcion: "",
+        precio: "48.000",
+        disponible: true,
+    },
+    {
+        id: 4,
         img: smirnoff_tamarindo,
         titulo: "Smirnoff Tamarindo 750ml",
         descripcion: "",
