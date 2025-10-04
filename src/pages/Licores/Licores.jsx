@@ -26,7 +26,7 @@ import jose_cuervo_especial750 from "../../img/licores/tequila/jose_cuervo_espec
 
 import smirnoff_lulo375 from "../../img/licores/vodka/smirnoff_lulo_375.png";
 import smirnoff_lulo750 from "../../img/licores/vodka/smirnoff_lulo_750.png";
-import smirnoff_tamarindo from "../../img/licores/vodka/smirnoff_tamarindo.png";
+import smirnoff_tamarindo from "../../img/licores/vodka/Smirnoff_Tamarindo.png";
 import smirnoff_tamarindo375 from "../../img/licores/vodka/smirnoff_tamarindo375.png";
 
 import buchanans_deluxe375 from "../../img/licores/whisky/buchanans_deluxe375.png";
