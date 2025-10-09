@@ -21,14 +21,7 @@ function Inicio() {
                 className="carrusel"
             >
                 <Carousel indicators={false} controls={false} interval={3000}>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={carr1}
-                            alt="Primera"
-                            style={{ height: "10vh", objectFit: "cover" }}
-                        />
-                    </Carousel.Item>
+                    
 
                     <Carousel.Item>
                         <img
