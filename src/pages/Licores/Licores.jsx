@@ -125,7 +125,7 @@ const vodka = [
         img: smirnoff_lulo750,
         titulo: "Smirnoff Lulo 750ml",
         descripcion: "",
-        precio: "80.000",
+        precio: "85.000",
         disponible: true,
     },
     {
@@ -141,7 +141,7 @@ const vodka = [
         img: smirnoff_tamarindo,
         titulo: "Smirnoff Tamarindo 750ml",
         descripcion: "",
-        precio: "85.000",
+        precio: "90.000",
         disponible: true,
     },
 ];
