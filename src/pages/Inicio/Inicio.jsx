@@ -120,7 +120,7 @@ function Inicio() {
                     <span>Snacks</span>
                 </Link>
 
-                {/*<Link to="/shots" className="boton_producto">
+                <Link to="/shots" className="boton_producto">
                     <div class="svg-wrapper-1">
                         <div class="svg-wrapper">
                             <svg
@@ -137,7 +137,7 @@ function Inicio() {
                         </div>
                     </div>
                     <span>Shots</span>
-                </Link>*/}
+                </Link>
 
                 <Link to="/licores" className="boton_producto">
                     <div class="svg-wrapper-1">

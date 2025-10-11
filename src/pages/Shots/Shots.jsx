@@ -12,9 +12,40 @@ import shot_fire from "../../img/shots/shot_fire.webp";
 import shot_honey from "../../img/shots/shot_honey.webp";
 import shot_apple from "../../img/shots/shot_apple.webp";
 import shot_jager from "../../img/shots/shot_jager.webp";
+import shot_ron from "../../img/shots/shot_ron.png";
+import shot_jose_cuervo from "../../img/shots/shot_jose_cuervo.png";
+import shot_old_pard from "../../img/shots/shot_old_pard.png";
+
 
 const shots = [
     {
+        id: 1,
+        img: shot_ron,
+        titulo: "Shot Ron Viejo de Caldas 1 oz",
+        descripcion:
+            "Ron colombiano suave. Notas de caña y vainilla, ideal para el shot, 35% v/v.",
+        precio: "$8.000",
+        disponible: true,
+    },
+    {
+        id: 2,
+        img: shot_jose_cuervo,
+        titulo: "Shot Jose Cuervo Especial 1 oz",
+        descripcion:
+            "Tequila Reposado mexicano. Dorado, suave y equilibrado en barrica, 38% v/v.",
+        precio: "$12.000",
+        disponible: true,
+    },
+    {
+        id: 3,
+        img: shot_old_pard,
+        titulo: "Shot Old Parr 1 oz",
+        descripcion:
+            "Whisky escocés de 12 años. Sabor profundo, toques afrutados y ahumados, 40% v/v.",
+        precio: "$14.000",
+        disponible: true,
+    },
+    /*{
         id: 1,
         img: shot_jack,
         titulo: "Shot Jack Daniel's Old N0.7 1 oz",
@@ -57,7 +88,7 @@ const shots = [
             "Licor alemán de hierbas, con un sabor intenso y ligeramente dulce, 35% v/v.",
         precio: "$9.000",
         disponible: true,
-    },
+    },*/
 ];
 
 export default function () {
