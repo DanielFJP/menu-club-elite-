@@ -18,7 +18,7 @@ const snacks = [
         img: todorico,
         titulo: "Todo Rico BBQ 45g",
         precio: "$4.500",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 2,

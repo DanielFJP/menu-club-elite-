@@ -142,7 +142,7 @@ const vodka = [
         titulo: "Smirnoff Tamarindo 750ml",
         descripcion: "",
         precio: "90.000",
-        disponible: true,
+        disponible: false,
     },
 ];
 

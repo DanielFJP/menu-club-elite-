@@ -265,7 +265,7 @@ const importadas = [
         titulo: "Stella Artois 330ml",
         descripcion: "",
         precio: "$9.000",
-        disponible: true,
+        disponible: false,
     },
 ];
 
