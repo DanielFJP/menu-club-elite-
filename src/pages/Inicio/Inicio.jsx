@@ -5,9 +5,9 @@ import MobileContent from '../../components/MobileContent';
 import Footer from '../../components/footer';
 import Navbar from '../../components/Bnavegacion';
 import Carousel from "react-bootstrap/Carousel";
-import carr1 from "../../img/carrusel/descuento_en_cervezas.png";
+import carr1 from "../../img/carrusel/descuento_redes.png";
 import carr2 from "../../img/carrusel/domingo_plancha.png";
-import amor_amistad from "../../img/carrusel/amor_amistad.png";
+
 
 
 function Inicio() {
@@ -21,8 +21,14 @@ function Inicio() {
                 className="carrusel"
             >
                 <Carousel indicators={false} controls={false} interval={3000}>
-                    
-
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={carr1}
+                            alt="Primera"
+                            style={{ height: "10vh", objectFit: "cover" }}
+                        />
+                    </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
@@ -187,7 +193,7 @@ function Inicio() {
                     <span>Pide tu canción</span>
                 </Link>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
 }
