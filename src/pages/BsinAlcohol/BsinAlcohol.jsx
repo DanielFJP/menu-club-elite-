@@ -9,6 +9,7 @@ import { CartContext } from "../../components/CartContext";
 import Footer from "../../components/footer";
 
 import Zalva from "../../img/bebidas-sin-alcohol/agua-zalva.webp";
+import pool from "../../img/bebidas-sin-alcohol/agua-pool-x300ml.png";
 import colombiana from "../../img/bebidas-sin-alcohol/colombiana.webp";
 import hit_tropical from "../../img/bebidas-sin-alcohol/Hit-Frutas-tropicales.webp";
 import hit_lulo from "../../img/bebidas-sin-alcohol/Hit-Lulo.webp";
@@ -22,12 +23,19 @@ const SinAlcohol = [
     {
         id: 1,
         img: Zalva,
+        titulo: "Agua 300ml",
+        precio: "$2.000",
+        disponible: true,
+    },
+    {
+        id: 2,
+        img: pool,
         titulo: "Agua 600ml",
         precio: "$3.000",
         disponible: true,
     },
     {
-        id: 2,
+        id: 3,
         img: gatorade_mandarina,
         titulo: "Gatorade Mandarina 500ml",
         precio: "5.000",

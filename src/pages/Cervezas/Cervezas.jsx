@@ -86,7 +86,7 @@ const nacionales = [
         titulo: "Club Colombia Roja 330ml",
         descripcion: "",
         precio: "$6.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 7,
@@ -96,14 +96,14 @@ const nacionales = [
         precio: "$6.000",
         disponible: false,
     },
-    /*{
+    {
         id: 8,
         img: club_trigo,
         titulo: "Club Colombia Trigo 330ml",
         descripcion: "Cerveza de trigo, fresca y afrutada, 5% v/v.",
         precio: "$7.000",
         disponible: true,
-    }*/
+    }
     /*{
         id: 9,
         img: club_grande,
@@ -257,7 +257,7 @@ const importadas = [
         titulo: "Budweiser 330ml",
         descripcion: "",
         precio: "$5.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 4,
