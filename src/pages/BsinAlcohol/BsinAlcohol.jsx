@@ -23,15 +23,15 @@ const SinAlcohol = [
     {
         id: 1,
         img: Zalva,
-        titulo: "Agua 300ml",
-        precio: "$2.000",
+        titulo: "Agua 600ml",
+        precio: "$3.000",
         disponible: true,
     },
     {
         id: 2,
         img: pool,
-        titulo: "Agua 600ml",
-        precio: "$3.000",
+        titulo: "Agua 300ml",
+        precio: "$2.000",
         disponible: true,
     },
     {
