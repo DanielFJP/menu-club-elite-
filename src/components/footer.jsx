@@ -39,7 +39,7 @@ export default function footer() {
                       </li>
                   </a>
 
-                  <a href="https://www.instagram.com/clubeliterosal?igsh=MWp0MnljanU4aWNyYw==">
+                  <a href="https://www.instagram.com/elclubrosal/">
                       <li className="icon instagram">
                           <span className="tooltip">Instagram</span>
                           <svg
@@ -56,7 +56,7 @@ export default function footer() {
               </ul>
           </div>
 
-          <div className='derechos'>
+          <div className="derechos">
               <p>© 2025 Club Elite. Todos los derechos reservados.</p>
           </div>
       </footer>
