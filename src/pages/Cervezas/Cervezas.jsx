@@ -101,7 +101,7 @@ const nacionales = [
         img: club_trigo,
         titulo: "Club Colombia Trigo 330ml",
         descripcion: "Cerveza de trigo, fresca y afrutada, 5% v/v.",
-        precio: "$7.000",
+        precio: "$6.000",
         disponible: true,
     }
     /*{
