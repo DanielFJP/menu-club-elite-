@@ -39,7 +39,7 @@ const aguardiente = [
         img: a_rojo_375,
         titulo: "Antioqueño Rojo 375ml",
         descripcion: "",
-        precio: "48.000",
+        precio: "50.000",
         disponible: true,
     },
     {
@@ -55,7 +55,7 @@ const aguardiente = [
         img: a_verde_375,
         titulo: "Antioqueño Verde 375ml",
         descripcion: "",
-        precio: "48.000",
+        precio: "45.000",
         disponible: true,
     },
     {
@@ -71,7 +71,7 @@ const aguardiente = [
         img: manzanares375,
         titulo: "Amarillo de Manzanares 375ml",
         descripcion: "",
-        precio: "48.000",
+        precio: "50.000",
         disponible: true,
     },
     {
