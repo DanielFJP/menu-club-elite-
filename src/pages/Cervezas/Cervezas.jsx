@@ -78,7 +78,7 @@ const nacionales = [
         titulo: "Club Colombia Dorada 330ml",
         descripcion: "",
         precio: "$6.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 6,
@@ -86,7 +86,7 @@ const nacionales = [
         titulo: "Club Colombia Roja 330ml",
         descripcion: "",
         precio: "$6.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 7,

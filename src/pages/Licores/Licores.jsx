@@ -55,7 +55,7 @@ const aguardiente = [
         img: a_verde_375,
         titulo: "Antioqueño Verde 375ml",
         descripcion: "",
-        precio: "45.000",
+        precio: "48.000",
         disponible: true,
     },
     {
