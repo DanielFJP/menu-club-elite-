@@ -241,7 +241,7 @@ const importadas = [
         titulo: "Corona Extra 355ml",
         descripcion: "",
         precio: "$9.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 2,
@@ -249,7 +249,7 @@ const importadas = [
         titulo: "Coronita 210ml",
         descripcion: "",
         precio: "$6.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 3,
