@@ -21,7 +21,7 @@ function Inicio() {
                 style={{ height: "10vh", overflow: "hidden" }}
                 className="carrusel"
             >
-                <Carousel indicators={false} controls={false} interval={3000}>
+                <Carousel indicators={false} controls={false} interval={2000}>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
