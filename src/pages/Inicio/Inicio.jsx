@@ -7,6 +7,7 @@ import Navbar from '../../components/Bnavegacion';
 import Carousel from "react-bootstrap/Carousel";
 import carr1 from "../../img/carrusel/descuento_redes.png";
 import carr2 from "../../img/carrusel/domingo_plancha.png";
+import carr3 from "../../img/carrusel/viernes_karaoke.png";
 
 
 
@@ -34,6 +35,14 @@ function Inicio() {
                             className="d-block w-100"
                             src={carr2}
                             alt="Segunda"
+                            style={{ height: "10vh", objectFit: "cover" }}
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={carr3}
+                            alt="Tercera"
                             style={{ height: "10vh", objectFit: "cover" }}
                         />
                     </Carousel.Item>
