@@ -11,21 +11,25 @@ import Footer from "../../components/footer";
 import todorico from "../../img/snacks/todo_rico.webp";
 import detodito from "../../img/snacks/de_todito.webp";
 import todoriconatural from "../../img/snacks/todo_rico_natural.png"
+import todorico45g from "../../img/snacks/todo_rico_45g.png";
+import todorico150g from "../../img/snacks/todo_rico_150g.png";
+
 
 const snacks = [
+    
     {
         id: 1,
-        img: todorico,
-        titulo: "Todo Rico BBQ 45g",
+        img: todorico45g,
+        titulo: "Todo Rico 45g",
         precio: "$4.500",
         disponible: true,
     },
     {
         id: 2,
-        img: todoriconatural,
-        titulo: "Todo Rico Original 45g",
-        precio: "$4.500",
-        disponible: false,
+        img: todorico150g,
+        titulo: "Todo Rico 150g",
+        precio: "$12.000",
+        disponible: true,
     },
 ];
 
