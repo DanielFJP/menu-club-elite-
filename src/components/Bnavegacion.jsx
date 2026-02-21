@@ -154,19 +154,26 @@ function Bnavegacion() {
                         >
                             Snacks
                         </Nav.Link>
-                        {/*<Nav.Link
+                        <Nav.Link
                             as={Link}
                             to="/shots"
                             onClick={handleNavLinkClick}
                         >
                             Shots
-                        </Nav.Link>*/}
+                        </Nav.Link>
                         <Nav.Link
                             as={Link}
                             to="/licores"
                             onClick={handleNavLinkClick}
                         >
                             Licores y Aperitivos
+                        </Nav.Link>
+                        <Nav.Link
+                            as={Link}
+                            to="/cocteles"
+                            onClick={handleNavLinkClick}
+                        >
+                            Cocteles
                         </Nav.Link>
                         <Nav.Link
                             as={Link}

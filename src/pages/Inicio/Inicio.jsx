@@ -173,6 +173,31 @@ function Inicio() {
                     <span>Licores y Aperitivos</span>
                 </Link>
 
+                <Link to="/cocteles" className="boton_producto">
+                    <div class="svg-wrapper-1">
+                        <div class="svg-wrapper">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="28"
+                                height="28"
+                                viewBox="0 0 24 24"
+                            >
+                                <g
+                                    fill="none"
+                                    stroke="currentColor"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                >
+                                    <path d="M9 6L6.6 2.8C6.3 2.4 5.6 2 5 2H2m16 4l-7 8l-7-8Z" />
+                                    <path d="M15.4 9.1A4 4 0 1 0 14 6m-3 8v8m-4 0h8" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <span>Cocteles</span>
+                </Link>
+
                 <hr className="linea" />
 
                 <Link

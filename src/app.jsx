@@ -9,6 +9,7 @@ import Snacks from "./pages/Snacks/Snacks";
 import Shots from "./pages/Shots/Shots";
 import Administracion from "./pages/Administracion/Administracion";
 import Licores from "./pages/Licores/Licores";
+import Cocteles from "./pages/Cocteles/cocteles";
 
 import Navbar from "./components/Bnavegacion";
 import MobileContent from "./components/MobileContent";
@@ -33,6 +34,7 @@ export function App() {
                     <Route path="/snacks" element={<Snacks />} />
                     <Route path="/shots" element={<Shots />} />
                     <Route path="/licores" element={<Licores />} />
+                    <Route path="/cocteles" element={<Cocteles />} />
                     <Route
                         path="/administracion"
                         element={<Administracion />}
