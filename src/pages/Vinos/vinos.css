@@ -129,7 +129,7 @@
   .text_vinos {
     position: absolute;
     top: 18%;
-    left: -380%;
+    left: -390%;
     color: #ffffff;
     transition: all .3s ease-in;
     z-index: 2;
