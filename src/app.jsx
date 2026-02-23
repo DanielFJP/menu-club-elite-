@@ -10,6 +10,7 @@ import Shots from "./pages/Shots/Shots";
 import Administracion from "./pages/Administracion/Administracion";
 import Licores from "./pages/Licores/Licores";
 import Cocteles from "./pages/Cocteles/cocteles";
+import Vinos from "./pages/Vinos/vinos";
 
 import Navbar from "./components/Bnavegacion";
 import MobileContent from "./components/MobileContent";
@@ -35,6 +36,7 @@ export function App() {
                     <Route path="/shots" element={<Shots />} />
                     <Route path="/licores" element={<Licores />} />
                     <Route path="/cocteles" element={<Cocteles />} />
+                    <Route path="/vinos" element={<Vinos />} />
                     <Route
                         path="/administracion"
                         element={<Administracion />}

@@ -45,7 +45,7 @@ const nacionales = [
         img: aguila,
         titulo: "Aguila Original 330ml",
         precio: "$4.500",
-        descripcion: "",
+        descripcion: "Viernes y Sabados $5.000",
         disponible: true,
     },
     {
@@ -60,19 +60,20 @@ const nacionales = [
         id: 3,
         img: poker,
         titulo: "Poker 330ml",
-        descripcion: "",
+        descripcion: "Viernes y Sabados $5.000",
         precio: "$4.500",
         disponible: true,
     },
     ,
-    /*{
+    {
         id: 4,
         img: costeña,
         titulo: "Costeña 330ml",
-        descripcion: "Cerveza clásica colombiana, sabor balanceado, 4% v/v.",
+        descripcion: "",
         precio: "$4.000",
         disponible: true,
-    }*/ {
+    },
+    {
         id: 5,
         img: club_dorada,
         titulo: "Club Colombia Dorada 330ml",
@@ -100,10 +101,10 @@ const nacionales = [
         id: 8,
         img: club_trigo,
         titulo: "Club Colombia Trigo 330ml",
-        descripcion: "Cerveza de trigo, fresca y afrutada, 5% v/v.",
-        precio: "$6.000",
+        descripcion: "Cerveza de temporada, fresca y afrutada, 5% v/v.",
+        precio: "$7.000",
         disponible: true,
-    }
+    },
     /*{
         id: 9,
         img: club_grande,
@@ -112,7 +113,6 @@ const nacionales = [
         precio: "$10.000",
         disponible: true,
     },*/
-    ,
 ];
 
 

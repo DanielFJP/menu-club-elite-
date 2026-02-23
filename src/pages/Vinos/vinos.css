@@ -1,11 +1,11 @@
-.contenido-cocteles{
+.contenido-vinos{
     display: block;
     margin-bottom: 20px;
     margin-top: 60px;
   }
   
   @media screen and (min-width:600px) {
-    .contenido-cocteles{
+    .contenido-vinos{
       display: none;
     }
   }
@@ -24,7 +24,7 @@
     border-bottom: 2px solid white !important;
 }
 
-.tabs_cocteles{
+.tabs_vinos{
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -42,7 +42,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
   }
   
-  .cardd_cocteles {
+  .cardd_vinos {
     position: relative;
     width: 100%;
     height: 260px;
@@ -52,11 +52,11 @@
     overflow: hidden;
   }
   
-  .cardd_cocteles:active {
+  .cardd_vinos:active {
     transform: scale(.95);
   }
   
-  .cardd_cocteles::before {
+  .cardd_vinos::before {
     content: "";
     position: absolute;
     top: 0;
@@ -84,15 +84,15 @@
     z-index: 10;
   }
   
-  .cardd_cocteles:hover .ordenar-btn{
+  .cardd_vinos:hover .ordenar-btn{
     bottom: 0;
   }
   
-  .cardd_cocteles:active .ordenar-btn {
+  .cardd_vinos:active .ordenar-btn {
     height: 65px;
   }
   
-  .image_cocteles {
+  .image_vinos {
     position: absolute;
     top: 50%;
     left: 32%;
@@ -104,7 +104,7 @@
     transition: all .5s ease-in;
   }
   
-  .image_cocteles img{
+  .image_vinos img{
     width: 230px;
     height: 269px;
     object-fit: contain;
@@ -113,7 +113,7 @@
   }
   
   
-  .cardd_cocteles:hover .image_cocteles {
+  .cardd_vinos:hover .image_vinos {
     top: 50%;
     left: 5%; 
     width: 120px;
@@ -126,31 +126,31 @@
 
 
   
-  .text_cocteles {
+  .text_vinos {
     position: absolute;
     top: 18%;
-    left: -315%;
+    left: -380%;
     color: #ffffff;
     transition: all .3s ease-in;
     z-index: 2;
     text-shadow: 1px 3px 4px rgb(0, 0, 0);
   }
   
-  .text_cocteles span {
+  .text_vinos span {
     font-size: 21px;
     font-weight: bold;
     line-height: 1.2;
   }
   
-  .text_cocteles p {
+  .text_vinos p {
     font-size: 16px;
     font-weight: 400;
     margin-top: 10px;
   }
   
-  .cardd_cocteles:hover .text_cocteles {
-    top: 15%;
-    left: 3%;
+  .cardd_vinos:hover .text_vinos {
+    top: 8%;
+    left: 2%;
   }
   
   

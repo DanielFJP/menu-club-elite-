@@ -170,6 +170,13 @@ function Bnavegacion() {
                         </Nav.Link>
                         <Nav.Link
                             as={Link}
+                            to="/vinos"
+                            onClick={handleNavLinkClick}
+                        >
+                            Vinos
+                        </Nav.Link>
+                        <Nav.Link
+                            as={Link}
                             to="/cocteles"
                             onClick={handleNavLinkClick}
                         >

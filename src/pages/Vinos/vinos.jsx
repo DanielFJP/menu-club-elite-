@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./cocteles.css";
+import "./vinos.css";
 import MobileContent from "../../components/MobileContent";
 import Navbar from "../../components/Bnavegacion";
 import Tab from "react-bootstrap/Tab";
@@ -14,52 +14,55 @@ import cabernet from "../../img/vinos/cabernet.png";
 import carmenere from "../../img/vinos/carmenere.png";
 import malbec from "../../img/vinos/malbec.png";
 import merlot from "../../img/vinos/merlot.png";
+import copa_vino from "../../img/vinos/copa_de_vino.png";
+import copa_vino_caliente from "../../img/vinos/copa_vino_caliente.png";
+import botella_vino_caliente from "../../img/vinos/botella_vino_caliente.png";
 
 
 const vinos = [
     {
         id: 1,
+        img: copa_vino,
+        titulo: "Copa de Vino",
+        descripcion:
+            "Copa de vino (Merlot, Malbec, Carmenere o Cabernet)",
+        precio: "12.000",
+        disponible: true,
+    },
+    {
+        id: 2,
         img: cabernet,
-        titulo: "Concha y Toro Reservado Cabernet Sauvignon",
+        titulo: "Concha y Toro Reservado - Cabernet Sauvignon",
         descripcion:
             "El más fuerte y estructurado. Se siente más seco, con sabores más marcados a frutas oscuras y un final más intenso y duradero. Es el que más “presencia” tiene en boca.",
         precio: "60.000",
         disponible: true,
     },
     {
-        id: 2,
+        id: 3,
         img: carmenere,
-        titulo: "Concha y Toro Reservado Carmenere",
+        titulo: "Concha y Toro Reservado - Carmenere",
         descripcion:
             "Equilibrado y elegante. Tiene notas de frutos rojos con un ligero toque especiado. No es tan fuerte como el Cabernet, pero tiene más estructura que el Merlot.",
         precio: "60.000",
         disponible: true,
     },
     {
-        id: 3,
+        id: 4,
         img: malbec,
-        titulo: "Concha y Toro Reservado Malbec",
+        titulo: "Concha y Toro Reservado - Malbec",
         descripcion:
             "Más intenso y jugoso. Se siente más profundo en boca, con sabor a mora, ciruela oscura y un toque ligeramente dulce. Tiene más cuerpo que el Merlot.",
         precio: "60.000",
         disponible: true,
     },
     {
-        id: 4,
+        id: 5,
         img: merlot,
-        titulo: "Concha y Toro Reservado Merlot",
+        titulo: "Concha y Toro Reservado - Merlot",
         descripcion:
             "Suave, ligero y muy fácil de tomar. Sabe a frutas rojas maduras como cereza y ciruela, con un final delicado y poco amargo. Ideal para quien quiere un vino amable y no muy fuerte.",
         precio: "60.000",
-        disponible: true,
-    },
-    {
-        id: 5,
-        img: mojito,
-        titulo: "Mojito",
-        descripcion:
-            "Refrescante y aromático. Ligero, chispeante y perfecto para toda la noche.",
-        precio: "22.000",
         disponible: true,
     },
 ];
@@ -67,11 +70,20 @@ const vinos = [
 const vino_caliente = [
     {
         id: 1,
-        img: sodas,
+        img: copa_vino_caliente,
         titulo: "Soda Italiana",
         descripcion:
-            "Burbujeante y ligera. Dulce fresca que invita a repetir, sabores a Cereza, Mango biche y Arándano",
-        precio: "8.000",
+            "Copa de vino caliente (Merlot, Malbec, Carmenere o Cabernet)",
+        precio: "15.000",
+        disponible: true,
+    },
+    {
+        id: 2,
+        img: botella_vino_caliente,
+        titulo: "Botella de Vino Caliente",
+        descripcion:
+            "Botella de Vino Caliente preparado con la variedad de tu preferencia (Merlot, Malbec, Carmenere o Cabernet)",
+        precio: "70.000",
         disponible: true,
     },
 ];
@@ -84,25 +96,25 @@ export default function () {
             <MobileContent />
             <Navbar />
 
-            <div className="contenido-cocteles">
+            <div className="contenido-vinos">
                 <Tabs
-                    defaultActiveKey="cocteles"
+                    defaultActiveKey="vinos"
                     transition={true}
                     id="noanim-tab-example"
                     className="mb-1 d-flex justify-content-center bg-dark tabs_cocteles"
                 >
-                    <Tab eventKey="cocteles" title="Cocteles">
+                    <Tab eventKey="vinos" title="Vinos">
                         <Row xs={1} md={2} className="g-4 m-1">
-                            {cocteles.map((producto) => (
+                            {vinos.map((producto) => (
                                 <Col key={producto.id}>
                                     <Card>
-                                        <div className="cardd_cocteles">
+                                        <div className="cardd_vinos">
                                             {!producto.disponible && (
                                                 <div className="no-disponible">
                                                     No Disponible
                                                 </div>
                                             )}
-                                            <div className="image_cocteles">
+                                            <div className="image_vinos">
                                                 <img
                                                     src={producto.img}
                                                     alt={producto.titulo}
@@ -113,7 +125,7 @@ export default function () {
                                                     }}
                                                 />
                                             </div>
-                                            <div className="text_cocteles">
+                                            <div className="text_vinos">
                                                 <span>{producto.titulo}</span>
                                                 <p>{producto.descripcion}</p>
                                                 <span>{producto.precio}</span>
@@ -131,18 +143,18 @@ export default function () {
                         </Row>
                     </Tab>
 
-                    <Tab eventKey="sin_alcohol" title="Sin Alcohol">
+                    <Tab eventKey="vino_caliente" title="Vino Caliente">
                         <Row xs={1} md={2} className="g-4 m-1">
-                            {sin_alcohol.map((producto) => (
+                            {vino_caliente.map((producto) => (
                                 <Col key={producto.id}>
                                     <Card>
-                                        <div className="cardd_cocteles">
+                                        <div className="cardd_vinos">
                                             {!producto.disponible && (
                                                 <div className="no-disponible">
                                                     No Disponible
                                                 </div>
                                             )}
-                                            <div className="image_cocteles">
+                                            <div className="image_vinos">
                                                 <img
                                                     src={producto.img}
                                                     alt={producto.titulo}
@@ -153,7 +165,7 @@ export default function () {
                                                     }}
                                                 />
                                             </div>
-                                            <div className="text_cocteles">
+                                            <div className="text_vinos">
                                                 <span>{producto.titulo}</span>
                                                 <p>{producto.descripcion}</p>
                                                 <span>{producto.precio}</span>
