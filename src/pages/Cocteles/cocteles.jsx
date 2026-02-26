@@ -24,7 +24,7 @@ const cocteles = [
         img: amarillo_tropical,
         titulo: "Amarillo Tropical (De la Casa)",
         descripcion:
-            "Exótico y atrevido. Frutal con un final vibrante que sorprende.",
+            "Aguardiente Amarillo jugo de mango y limón fresco. Exótico, vibrante y único en el pueblo. Nuestro cóctel insignia.",
         precio: "24.000",
         disponible: true,
     },
@@ -33,7 +33,7 @@ const cocteles = [
         img: pink_cherry,
         titulo: "Pink Sunset",
         descripcion:
-            "Suave y tropical. Dulce en su punto justo, fresca y fácil de amar.",
+            "Vodka suave con maracuyá tropical y un delicado degradado de granadina. Refrescante, dulce y perfecta para empezar la noche.",
         precio: "20.000",
         disponible: true,
     },
@@ -42,7 +42,7 @@ const cocteles = [
         img: cosmopolitan,
         titulo: "Cosmopolitan",
         descripcion:
-            "Sofisticado y equilibrado. Cítrico sutil con un final elegante.",
+            "Vodka premium con un toque vibrante de arándanos, limón fresco y triple sec. Equilibrado entre dulce y cítrico, elegante y sofisticado. El clásico moderno que nunca pasa de moda.",
         precio: "23.000",
         disponible: true,
     },
@@ -51,7 +51,7 @@ const cocteles = [
         img: margarita,
         titulo: "Margarita",
         descripcion:
-            "Intensa y vibrante. Cítrica, elegante y con carácter. Un clásico que nunca falla.",
+            "Tequila premium, triple sec y limón fresco perfectamente balanceados. Fuerte, elegante y con el toque cítrico ideal. La favorita de los que saben.",
         precio: "26.000",
         disponible: true,
     },
@@ -60,7 +60,7 @@ const cocteles = [
         img: mojito,
         titulo: "Mojito",
         descripcion:
-            "Refrescante y aromático. Ligero, chispeante y perfecto para toda la noche.",
+            "Ron blanco, hierbabuena fresca y limón natural con soda burbujeante. Refrescante, aromático y siempre buena elección.",
         precio: "22.000",
         disponible: true,
     },
