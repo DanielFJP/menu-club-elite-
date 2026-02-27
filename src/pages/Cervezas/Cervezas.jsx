@@ -45,7 +45,7 @@ const nacionales = [
         img: aguila,
         titulo: "Aguila Original 330ml",
         precio: "$4.500",
-        descripcion: "Viernes y Sabados $5.000",
+        descripcion: "Viernes y Sabados $4.800",
         disponible: true,
     },
     {
@@ -60,7 +60,7 @@ const nacionales = [
         id: 3,
         img: poker,
         titulo: "Poker 330ml",
-        descripcion: "Viernes y Sabados $5.000",
+        descripcion: "Viernes y Sabados $4.800",
         precio: "$4.500",
         disponible: true,
     },
