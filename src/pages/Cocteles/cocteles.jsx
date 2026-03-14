@@ -72,7 +72,7 @@ const sin_alcohol = [
         img: sodas,
         titulo: "Soda Italiana",
         descripcion: "Burbujeante y ligera. Dulce fresca que invita a repetir, sabores a Cereza, Mango biche y Arándano",
-        precio: "8.000",
+        precio: "7.000",
         disponible: true,
     },
 ];

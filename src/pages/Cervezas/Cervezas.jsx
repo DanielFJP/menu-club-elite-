@@ -240,8 +240,8 @@ const importadas = [
         img: corona,
         titulo: "Corona Extra 355ml",
         descripcion: "",
-        precio: "$9.000",
-        disponible: false,
+        precio: "$10.000",
+        disponible: true,
     },
     {
         id: 2,
@@ -264,7 +264,7 @@ const importadas = [
         img: stella,
         titulo: "Stella Artois 330ml",
         descripcion: "",
-        precio: "$9.000",
+        precio: "$10.000",
         disponible: false,
     },
 ];
