@@ -45,7 +45,7 @@ const nacionales = [
         img: aguila,
         titulo: "Aguila Original 330ml",
         precio: "$4.500",
-        descripcion: "Viernes y Sabados $4.800",
+        descripcion: "Viernes, Sabados y Domingos $4.800",
         disponible: true,
     },
     {
@@ -60,7 +60,7 @@ const nacionales = [
         id: 3,
         img: poker,
         titulo: "Poker 330ml",
-        descripcion: "Viernes y Sabados $4.800",
+        descripcion: "Viernes, Sabados y Domingos $4.800",
         precio: "$4.500",
         disponible: true,
     },
@@ -288,6 +288,7 @@ export default function () {
                   className="mb-1 d-flex justify-content-center bg-dark tabs"
               >
                   <Tab eventKey="nacionales" title="Nacionales">
+                      
                       <Row xs={2} md={2} className="g-4 m-1">
                           {nacionales.map((producto) => (
                               <Col key={producto.id}>
@@ -312,9 +313,7 @@ export default function () {
                                           <div className="text-cervezas">
                                               <span>{producto.titulo}</span>
                                               <p>{producto.descripcion}</p>
-                                              <span>
-                                                  {producto.precio}
-                                              </span>
+                                              <span>{producto.precio}</span>
                                           </div>
                                           {/*<button
                                               className="ordenar-btn"
@@ -416,7 +415,7 @@ export default function () {
               </Tabs>
           </div>
 
-           <Footer/>
+          <Footer />
       </div>
   );
 }

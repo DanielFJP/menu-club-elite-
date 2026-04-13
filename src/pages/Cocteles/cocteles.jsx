@@ -35,7 +35,7 @@ const cocteles = [
         descripcion:
             "Vodka suave con maracuyá tropical y un delicado degradado de granadina. Refrescante, dulce y perfecta para empezar la noche.",
         precio: "20.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 3,
