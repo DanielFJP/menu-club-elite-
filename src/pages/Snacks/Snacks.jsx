@@ -43,6 +43,11 @@ const { addToCart } = useContext(CartContext);
             <Navbar />
 
             <div className="contenido-snacks">
+
+                <div className="mensaje-productos-sn">
+                  👆 Presiona cualquier producto para ver sus especificaciones.
+                </div>
+                
                 <Row xs={1} md={2} className="g-4 m-1">
                     {snacks.map((producto) => (
                         <Col key={producto.id}>

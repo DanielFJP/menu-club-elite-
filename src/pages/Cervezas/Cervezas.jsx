@@ -87,7 +87,7 @@ const nacionales = [
         titulo: "Club Colombia Roja 330ml",
         descripcion: "",
         precio: "$6.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 7,
@@ -241,7 +241,7 @@ const importadas = [
         titulo: "Corona Extra 355ml",
         descripcion: "",
         precio: "$10.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 2,
@@ -265,7 +265,7 @@ const importadas = [
         titulo: "Stella Artois 330ml",
         descripcion: "",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
 ];
 
@@ -281,6 +281,11 @@ export default function () {
           <Navbar />
 
           <div className="contenido-cervezas">
+              
+              <div className="mensaje-productos">
+                  👆 Presiona cualquier producto para ver sus especificaciones.
+              </div>
+
               <Tabs
                   defaultActiveKey="nacionales"
                   transition={true}
@@ -288,7 +293,6 @@ export default function () {
                   className="mb-1 d-flex justify-content-center bg-dark tabs"
               >
                   <Tab eventKey="nacionales" title="Nacionales">
-                      
                       <Row xs={2} md={2} className="g-4 m-1">
                           {nacionales.map((producto) => (
                               <Col key={producto.id}>

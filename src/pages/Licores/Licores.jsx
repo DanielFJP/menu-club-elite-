@@ -192,6 +192,11 @@ export default function () {
             <Navbar />
 
             <div className="contenido-licores">
+
+                <div className="mensaje-productos-lc">
+                  👆 Presiona cualquier producto para ver sus especificaciones.
+                </div>
+                
                 <Tabs
                     defaultActiveKey="aguardiente"
                     transition={true}

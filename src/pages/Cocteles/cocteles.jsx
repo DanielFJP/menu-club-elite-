@@ -86,6 +86,11 @@ export default function () {
             <Navbar />
 
             <div className="contenido-cocteles">
+
+                <div className="mensaje-productos-coc">
+                  👆 Presiona cualquier producto para ver sus especificaciones.
+                </div>
+                
                 <Tabs
                     defaultActiveKey="cocteles"
                     transition={true}

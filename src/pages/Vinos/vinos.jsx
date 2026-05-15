@@ -97,6 +97,11 @@ export default function () {
             <Navbar />
 
             <div className="contenido-vinos">
+
+                <div className="mensaje-productos-vn">
+                  👆 Presiona cualquier producto para ver sus especificaciones.
+                </div>
+                
                 <Tabs
                     defaultActiveKey="vinos"
                     transition={true}
