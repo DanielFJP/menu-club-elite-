@@ -44,8 +44,8 @@ const nacionales = [
         id: 1,
         img: aguila,
         titulo: "Aguila Original 330ml",
-        precio: "$4.500",
-        descripcion: "Viernes, Sabados y Domingos $4.800",
+        precio: "$5.000",
+        descripcion: "",
         disponible: true,
     },
     {
@@ -60,8 +60,8 @@ const nacionales = [
         id: 3,
         img: poker,
         titulo: "Poker 330ml",
-        descripcion: "Viernes, Sabados y Domingos $4.800",
-        precio: "$4.500",
+        descripcion: "",
+        precio: "$5.000",
         disponible: true,
     },
     ,
@@ -78,7 +78,7 @@ const nacionales = [
         img: club_dorada,
         titulo: "Club Colombia Dorada 330ml",
         descripcion: "",
-        precio: "$6.000",
+        precio: "$7.000",
         disponible: false,
     },
     {
@@ -86,7 +86,7 @@ const nacionales = [
         img: club_roja,
         titulo: "Club Colombia Roja 330ml",
         descripcion: "",
-        precio: "$6.000",
+        precio: "$7.000",
         disponible: false,
     },
     {
@@ -94,7 +94,7 @@ const nacionales = [
         img: club_negra,
         titulo: "Club Colombia Negra 330ml",
         descripcion: "",
-        precio: "$6.000",
+        precio: "$7.000",
         disponible: false,
     },
     {
